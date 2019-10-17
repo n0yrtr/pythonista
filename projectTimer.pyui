@@ -1,0 +1,146 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{132, 17}, {412, 67}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "label1",
+          "frame" : "{{437, 368}, {150, 32}}",
+          "uuid" : "1D375849-7B9E-4544-BC75-701F5B2B95AD",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Label",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{72, 112}, {611, 516}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "",
+          "row_height" : 44,
+          "frame" : "{{500, 284}, {200, 200}}",
+          "uuid" : "E54FE69B-1D57-4514-9913-135BBBA69104",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "data_source_font_size" : 18,
+          "name" : "taskTable"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{366, 636}, {248, 54}}",
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "frame" : "{{500, 368}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "2FA3BA59-9AC4-4DCE-8151-C8BB0B9B5242",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "addTaskNameEdit",
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{639, 636}, {172, 54}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "addTask",
+          "frame" : "{{560, 368}, {80, 32}}",
+          "title" : "Add",
+          "uuid" : "6B4C3111-2B7F-4B9A-8034-54A3BD474322",
+          "class" : "Button",
+          "name" : "addTaskButton",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{565, 17}, {229, 67}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "startTimer",
+          "frame" : "{{560, 368}, {80, 32}}",
+          "title" : "Start",
+          "uuid" : "4AE6960B-1F4A-4A4E-9BF9-26CFC7DB517D",
+          "class" : "Button",
+          "name" : "startButton",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{832, 17}, {241, 60}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "stopTimer",
+          "frame" : "{{560, 368}, {80, 32}}",
+          "title" : "Stop",
+          "uuid" : "33ACB3F5-AE83-4222-B56B-1DA454F60B32",
+          "class" : "Button",
+          "name" : "button1",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{730, 112}, {293, 516}}",
+        "class" : "TableView",
+        "attributes" : {
+          "flex" : "WH",
+          "data_source_items" : "",
+          "name" : "spendTimeTable",
+          "frame" : "{{500, 284}, {200, 200}}",
+          "uuid" : "E54FE69B-1D57-4514-9913-135BBBA69104",
+          "data_source_number_of_lines" : 1,
+          "class" : "TableView",
+          "background_color" : "RGBA(1.0, 1.0, 1.0, 1.0)",
+          "data_source_delete_enabled" : true,
+          "row_height" : 44,
+          "data_source_font_size" : 18
+        },
+        "selected" : true
+      }
+    ],
+    "frame" : "{{0, 0}, {1200, 768}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
